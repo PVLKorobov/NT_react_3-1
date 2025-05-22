@@ -1,3 +1,4 @@
+import './Stars.css'
 import Star from "./Star";
 
 
