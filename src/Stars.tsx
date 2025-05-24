@@ -10,7 +10,7 @@ interface StarsProps {
 function Stars({starCount}:StarsProps) {
     let stars = [];
     for (let i = 0; i < starCount; i++) {
-        stars.push(<Star />)
+        stars.push(<li><Star /></li>)
     }
     
     
